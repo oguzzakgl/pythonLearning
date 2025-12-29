@@ -1,0 +1,3 @@
+Sunucu 1 verisi: [OK]
+Sunucu 2 verisi: [OK]
+Sunucu 3 verisi: [OK]

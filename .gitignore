@@ -1,0 +1,21 @@
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Veritabanı (Generated)
+*.db
+*.sqlite3
+
+# Veri Dosyaları (Generated)
+*.csv
+*.xlsx
+
+# Sistem Dosyaları
+.DS_Store
+Thumbs.db
+
+# Virtual Environment
+.venv/
+venv/
+env/

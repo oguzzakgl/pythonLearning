@@ -1,0 +1,15 @@
+{
+  "kullanicilar": [
+    {
+      "email": "ali@gmail.com",
+      "id": 1,
+      "isim": "Ali"
+    },
+    {
+      "email": "veli@hotmail.com",
+      "id": 2,
+      "isim": "Veli"
+    }
+  ],
+  "toplam": 2
+}
