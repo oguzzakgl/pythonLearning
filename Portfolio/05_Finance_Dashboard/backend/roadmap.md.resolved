@@ -1,0 +1,78 @@
+# 🗺️ Finance Dashboard - Kodlama Yol Haritası
+
+Bu proje, Python ve React yeteneklerini birleştireceğin büyük bir adımdır. Adım adım ilerleyerek karmaşıklığı yönetebilirsin.
+
+---
+
+## 🏗️ Faz 1: Kayıt Defterini Hazırlama (Backend / SQL)
+
+Önce verilerin nerede ve nasıl saklanacağını belirlemeliyiz.
+
+### 1. Adım: Veritabanı Tasarımı ([backend/schema.sql](file:///c:/Users/O%C4%9Fuz/Desktop/gerek%20olabilir/python-library/Portfolio/05_Finance_Dashboard/backend/schema.sql))
+*   **Amaç:** Banka defterinin sayfalarını çizmek.
+*   **Yapılacak:** [schema.sql](file:///c:/Users/O%C4%9Fuz/Desktop/gerek%20olabilir/python-library/Portfolio/05_Finance_Dashboard/backend/schema.sql) dosyasını aç ve şu tabloları oluşturacak SQL kodlarını yaz:
+    *   `transactions`: Harcamalar ve Gelirler (ID, başlık, miktar, tip, tarih).
+    *   `budget_goals`: (Opsiyonel) Aylık bütçe hedefleri.
+*   **İpucu:** `CREATE TABLE IF NOT EXISTS transactions (...)`
+
+### 2. Adım: Python ile Bağlantı ([backend/database.py](file:///c:/Users/O%C4%9Fuz/Desktop/gerek%20olabilir/python-library/Portfolio/05_Finance_Dashboard/backend/database.py))
+*   **Amaç:** Python'un SQL ile konuşmasını sağlamak.
+*   **Yapılacak:**
+    *   `get_db_connection()` fonksiyonu yaz (sqlite3.connect).
+    *   `init_db()` fonksiyonu yaz (schema.sql'i okuyup çalıştırsın).
+    *   Harcama ekleme (`add_transaction`) ve listeleme (`get_transactions`) fonksiyonlarını yaz.
+
+---
+
+## 🔌 Faz 2: Sunucuyu Kurma (Backend / FastAPI)
+
+Veritabanını dış dünyaya (Web sitesine) açan kapıdır.
+
+### 3. Adım: API Uçlarını Yazma ([backend/main.py](file:///c:/Users/O%C4%9Fuz/Desktop/gerek%20olabilir/python-library/Portfolio/05_Finance_Dashboard/backend/main.py))
+*   **Amaç:** Web sitesinin "Harcama Ekle" butonuna basınca çalışacak kodu yazmak.
+*   **Yapılacak:**
+    *   `@app.post("/transactions")`: Yeni harcama ekler.
+    *   `@app.get("/transactions")`: Tüm harcamaları listeler.
+    *   `@app.delete("/transactions/{id}")`: Hatalı girilen harcamayı siler.
+
+---
+
+## 📊 Faz 3: Analiz ve Görsellik (Data Science)
+
+Veriyi sadece listelemek yetmez, anlamlandırmak gerekir.
+
+### 4. Adım: Veri Analizi ([backend/analytics.py](file:///c:/Users/O%C4%9Fuz/Desktop/gerek%20olabilir/python-library/Portfolio/05_Finance_Dashboard/backend/analytics.py))
+*   **Amaç:** "Bu ay markete ne kadar harcadım?" sorusunu cevaplamak.
+*   **Yapılacak:**
+    *   Pandas ile SQL'den veriyi çek (`pd.read_sql`).
+    *   `groupby` kullanarak kategorilere göre (Gıda, Kira vb.) toplam harcamayı hesapla.
+
+### 5. Adım: Grafik Çizimi ([backend/visuals.py](file:///c:/Users/O%C4%9Fuz/Desktop/gerek%20olabilir/python-library/Portfolio/05_Finance_Dashboard/backend/visuals.py))
+*   **Amaç:** Rapor oluşturmak.
+*   **Yapılacak:**
+    *   Matplotlib veya Seaborn kullanarak "Aylık Harcama Pastası" çiz.
+    *   Bu grafiği resim (`spending_pie.png`) olarak kaydet.
+    *   [main.py](file:///c:/Users/O%C4%9Fuz/Desktop/gerek%20olabilir/python-library/W14_Mini_Proje_Stok_Analiz/main.py) içinde bu resmi sunan bir endpoint (`/charts/spending`) ekle.
+
+---
+
+## ⚛️ Faz 4: Makyaj ve Sunum (Frontend / React)
+
+Kullanıcının göreceği ekranı tasarlamak.
+
+### 6. Adım: React Kurulumu
+*   **Yapılacak:** `client` klasörü içinde Vite ile React projesi oluştur.
+
+### 7. Adım: Arayüz Tasarımı
+*   **Yapılacak:**
+    *   Basit bir form yap (Başlık, Miktar, Kategori girilsin).
+    *   Altında bir tablo olsun, harcamalar listelensin.
+    *   Yan tarafta Backend'den gelen Grafik resmi (`<img src="...">`) görünsün.
+
+### 8. Adım: Veri Bağlantısı
+*   **Yapılacak:** JavaScript `fetch` veya `axios` kullanarak [main.py](file:///c:/Users/O%C4%9Fuz/Desktop/gerek%20olabilir/python-library/W14_Mini_Proje_Stok_Analiz/main.py) ile konuş. Formu doldurunca veriyi backend'e gönder.
+
+---
+
+## 🚀 Başlangıç Vuruşu
+Şimdi **[backend/schema.sql](file:///c:/Users/O%C4%9Fuz/Desktop/gerek%20olabilir/python-library/Portfolio/05_Finance_Dashboard/backend/schema.sql)** dosyasını açarak 1. Adımdan başla!
