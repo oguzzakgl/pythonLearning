@@ -42,5 +42,13 @@ def get_transactions(kullanici_id):
     con.close()
     return transactions
 
+def delete_transaction(id):
+    con, cursor = get_db_connection()
+    cursor.execute('DELETE FROM transactions WHERE id = ?', (id,))
+    con.commit()
+    con.close()
+
+
+
 def init_db():
     create_tables()

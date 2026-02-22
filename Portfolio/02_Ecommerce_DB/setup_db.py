@@ -2,8 +2,6 @@ import sqlite3
 import os
 
 def veritabani_kur():
-    # Çalışma dizinini al
-    # Çalışma dizinini al
     base_dir = os.path.dirname(os.path.abspath(__file__))
     db_path = os.path.join(base_dir, "ecommerce.db")
     schema_path = os.path.join(base_dir, "schema.sql")
@@ -15,7 +13,7 @@ def veritabani_kur():
     cursor = con.cursor()
     
     try:
-        # Schema Yükle
+
         print(f"Schema yükleniyor: {schema_path}")
         if os.path.exists(schema_path):
             with open(schema_path, "r", encoding="utf-8") as f:
@@ -27,7 +25,7 @@ def veritabani_kur():
             print(f"HATA: schema.sql bulunamadı! Yol: {schema_path}")
             return
         
-        # Seed Yükle
+
         print("Veriler yükleniyor (seed.sql)...")
         if os.path.exists(seed_path):
             with open(seed_path, "r", encoding="utf-8") as f:

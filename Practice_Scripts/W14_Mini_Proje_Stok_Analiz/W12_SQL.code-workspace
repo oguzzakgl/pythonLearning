@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../W12_SQL"
+		},
+		{
+			"path": "../W13_Numpy_Pandas"
+		},
+		{
+			"path": "."
+		}
+	]
+}

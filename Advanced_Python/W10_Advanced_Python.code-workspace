@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../W11_FastAPI"
+		},
+		{
+			"path": "../W12_SQL"
+		},
+		{
+			"path": "../W13_Numpy_Pandas"
+		},
+		{
+			"path": "../W14_Mini_Proje_Stok_Analiz"
+		}
+	]
+}

@@ -1,0 +1,50 @@
+# Portfolio Website Generation Prompt
+
+**Role:** Expert Frontend Developer & UI/UX Designer
+**Objective:** Create a stunning, high-performance personal portfolio website for a Data Scientist & Python Developer.
+
+**Design Aesthetic:**
+- **Theme:** Dark Mode "Cyber-Chic".
+- **Color Palette:**
+  - Background: Deep Void Black (#0a0a0a) to Dark Regal Purple (#1a0b2e) gradients.
+  - Accents: Electric Violet (#7c3aed) and Neon Purple (#a855f7).
+  - Text: Crisp White (#f8fafc) and Light Gray (#cbd5e1).
+- **Style:** Modern, Minimalist, High-End. Use Glassmorphism (frosted glass transparency) for project cards. 
+- **Animations:** Smooth scroll animations, subtle hover glows, and fade-ins.
+
+**Structure & Content:**
+
+1.  **Hero Section:**
+    - **Headline:** "Architecting Intelligence with Python & Data."
+    - **Subheader:** "Hi, I'm Oğuz. I build scalable backend systems and AI-driven data solutions."
+    - **Visual:** A subtle, abstract purple particle network animation in the background.
+
+2.  **Tech Stack (Skills):**
+    - Display icons/tags for: **Python, FastAPI, SQL, Pandas, NumPy, Scikit-learn, Streamlit, Matplotlib, Seaborn**.
+
+3.  **Featured Projects (Grids):**
+    *Showcase the following 4 key projects:*
+    
+    - **Real Estate AI Analysis**
+      - *Description:* A machine learning application that predicts property prices and visualizes market trends.
+      - *Tags:* Streamlit, Scikit-learn, Pandas.
+      
+    - **Finance & Crypto Dashboard**
+      - *Description:* Real-time dashboard for tracking financial assets, analyzing crypto markets, and visualizing stock data.
+      - *Tags:* FastAPI, Matplotlib, API Integration.
+      
+    - **HR Analytics Suite**
+      - *Description:* Data-driven tool for analyzing employee performance, retention, and organizational metrics.
+      - *Tags:* Data Analysis, Visualization, Pandas.
+      
+    - **E-Commerce Data Hub**
+      - *Description:* Backend system for analyzing sales performance and managing product databases.
+      - *Tags:* SQL, Database Design, Python.
+
+4.  **Contact Section:**
+    - A simple, elegant contact layout with links to **GitHub** and **LinkedIn**.
+
+**Technical Requirements:**
+- **Framework:** React (Vite) or Next.js.
+- **Styling:** Tailwind CSS (use `bg-gradient-to-br`, `backdrop-blur`, `ring` utilities).
+- **Motion:** Framer Motion for entering animations.

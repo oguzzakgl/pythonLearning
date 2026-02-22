@@ -2,7 +2,7 @@
 
 Bu proje, kişisel gelir ve giderlerinizi takip etmenizi sağlayan, Python (FastAPI) backend ve React frontend ile geliştirilmiş modern bir finansal yönetim uygulamasıdır.
 
-![Ekran Görüntüsü](screenshot.png) *(Varsa ekran görüntüsü eklenebilir)*
+
 
 ## 🚀 Özellikler
 

@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../W14_Mini_Proje_Stok_Analiz"
+		},
+		{
+			"path": "../Portfolio"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../W12_SQL"
+		},
+		{
+			"path": "../W13_Numpy_Pandas"
+		}
+	]
+}

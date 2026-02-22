@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../01_Sales_Analysis"
+		},
+		{
+			"path": "../02_Ecommerce_DB"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../04_Crypto_Analysis"
+		},
+		{
+			"path": "../05_Finance_Dashboard"
+		}
+	]
+}
