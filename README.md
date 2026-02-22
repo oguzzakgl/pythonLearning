@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=4FC3F7&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+O%C4%9Fuz+%F0%9F%91%8B;Python+Developer;Data+Analyst;Backend+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=4FC3F7&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+O%C4%9Fuz+%F0%9F%91%8B;Computer+Engineering+Student;Junior+Python+Developer;Data+Analyst" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 ## 🙋 About Me
 
-I'm a **Python developer** passionate about **data analysis**, **machine learning**, and **backend development**.  
+I'm a **Computer Engineering student** and **Junior Python Developer** passionate about **data analysis**, **machine learning**, and **backend development**.  
 I love turning raw data into meaningful insights and building clean, scalable systems.
 
 | | |
