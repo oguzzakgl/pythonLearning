@@ -16,13 +16,13 @@
 
 ## 🙋 About Me
 
-I'm a **Computer Engineering student** and **Junior Python Developer** passionate about **data analysis**, **machine learning**, and **backend development**.  
-I love turning raw data into meaningful insights and building clean, scalable systems.
+I'm a **Computer Engineering student** and **Junior Python Developer** passionate about **data analysis**, **machine learning**, **backend development**, and **automation**.  
+I love turning raw data into meaningful insights, building scalable systems, and automating workflows.
 
 | | |
 |---|---|
 | 🔭 **Currently building** | ML-powered apps & data analysis pipelines |
-| 🌱 **Learning** | React, advanced ML & Scikit-Learn |
+| 🌱 **Learning** | React, Selenium, n8n & advanced ML |
 | 💡 **Interests** | Clean code, data storytelling, automation |
 | 📫 **Contact** | oguzzakg@gmail.com |
 
@@ -54,6 +54,8 @@ I love turning raw data into meaningful insights and building clean, scalable sy
 ### Currently Learning 🌱
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-FF6584?style=for-the-badge&logo=n8n&logoColor=white)
 
 ---
 
