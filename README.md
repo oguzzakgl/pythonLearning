@@ -65,14 +65,14 @@ I love turning raw data into meaningful insights, building scalable systems, and
 <tr>
 <td width="50%">
 
-### 📈 [Borsa Analizi](https://github.com/oguzzakgl/PythonLib/tree/main/Portfolio/10_Borsa_Analizi)
+### 📈 [Borsa Analizi](https://github.com/oguzzakgl/stockAnalysisPlatform)
 Stock market analysis & ML prediction for BIST and US markets.  
 `Python` `Scikit-Learn` `Streamlit` `yfinance`
 
 </td>
 <td width="50%">
 
-### 🏠 [Emlak Danışmanı AI](https://github.com/oguzzakgl/PythonLib/tree/main/Portfolio/09_Emlak_Veri_Analizi)
+### 🏠 [Emlak Danışmanı AI](https://github.com/oguzzakgl/EmlakVeriAnalizi)
 AI-powered real estate price prediction app with Streamlit UI.  
 `Python` `Scikit-Learn` `Streamlit` `Seaborn`
 
@@ -88,7 +88,7 @@ Full-stack income & expense tracker with dynamic charts.
 </td>
 <td width="50%">
 
-### 👥 [İK Analitiği](https://github.com/oguzzakgl/PythonLib/tree/main/Portfolio/07_HR_Analysis_Advanced)
+### 👥 [İK Analitiği](https://github.com/oguzzakgl/HRAnalytics)
 HR analytics with employee attrition prediction & KPIs.  
 `Python` `Pandas` `Seaborn` `Scikit-Learn`
 
