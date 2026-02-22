@@ -28,7 +28,7 @@
 | `Data_Visualization` | Matplotlib & Seaborn |
 | `Intro_ScikitLearn` | Makine öğrenmesine giriş |
 | `Intro_Streamlit` | Streamlit ile web uygulaması |
-| `ML_Algoritmalari` | ML algoritmaları |
+| `ML_Algorithms` | Machine Learning Algorithms |
 | `Django_Intro` | Django ile web geliştirme |
 | `PostgreSQL_Intro` | PostgreSQL |
 | `Advanced_Data_Analysis` | İleri veri analizi |
