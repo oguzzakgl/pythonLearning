@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Veri ve Modeller (İsteğe bağlı - Eğer çok büyüklerse kapatın)
+# data/*.csv
+# models/*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.bak
